@@ -1,0 +1,28 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_header" android:gravity="center_horizontal" android:orientation="vertical" android:paddingHorizontal="24dp" android:paddingTop="40dp" android:paddingBottom="72dp">
+            <TextView android:layout_width="72dp" android:layout_height="72dp" android:background="@drawable/bg_circle" android:gravity="center" android:text="🔎" android:textSize="32sp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Campus Lost &amp; Found" android:textAppearance="?attr/textAppearanceHeadlineSmall" android:textColor="#FFFFFF" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Help students get their stuff back" android:textColor="#C7D2FE"/>
+        </LinearLayout>
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="20dp" android:layout_marginTop="-44dp" android:layout_marginBottom="24dp" app:cardCornerRadius="28dp" app:cardElevation="4dp" app:cardBackgroundColor="?attr/colorSurface">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+                <TextView android:id="@+id/ftitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Welcome back" android:textAppearance="?attr/textAppearanceTitleLarge" android:textStyle="bold"/>
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/nameL" style="@style/Field" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Full name" android:visibility="gone" android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout android:id="@+id/phoneL" style="@style/Field" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Phone number" android:visibility="gone" android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/phone" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="phone"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Field" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/email" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout style="@style/Field" app:endIconMode="password_toggle" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Password">
+                    <com.google.android.material.textfield.TextInputEditText android:id="@+id/pw" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <Button android:id="@+id/go" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="20dp" android:text="Log in"/>
+                <Button android:id="@+id/sw" style="@style/Widget.Material3.Button.TextButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="New here? Sign up"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

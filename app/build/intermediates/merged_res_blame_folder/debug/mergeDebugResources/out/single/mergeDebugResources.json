@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\drawable_bg_loc.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\drawable\\bg_loc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\drawable_ic_feed.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\drawable\\ic_feed.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\layout_activity_auth.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\layout\\activity_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\menu_nav.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\menu\\nav.xml"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\layout_fragment_feed.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\layout\\fragment_feed.xml"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\layout_chip.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\layout\\chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\drawable_bg_circle.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\drawable\\bg_circle.xml"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\drawable_ic_user.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\drawable\\ic_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\drawable_bg_header.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\drawable\\bg_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\drawable_bg_search.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\drawable\\bg_search.xml"
+    },
+    {
+        "merged": "com.campus.lostfound.app-debug-31:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.campus.lostfound.app-main-33:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\layout_fragment_post.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\layout\\fragment_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-debug-31:\\layout_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.7\\com.campus.lostfound.app-main-33:\\layout\\item.xml"
+    }
+]

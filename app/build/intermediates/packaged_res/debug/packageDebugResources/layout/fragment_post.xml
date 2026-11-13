@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_header" android:orientation="vertical" android:padding="20dp" android:paddingBottom="24dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Post found item" android:textAppearance="?attr/textAppearanceHeadlineMedium" android:textColor="#FFFFFF" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Help the owner find it faster." android:textColor="#C7D2FE"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Category" android:textAppearance="?attr/textAppearanceLabelLarge"/>
+            <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollbars="none">
+                <com.google.android.material.chip.ChipGroup android:id="@+id/cat" android:layout_width="wrap_content" android:layout_height="wrap_content" app:selectionRequired="true" app:singleLine="true" app:singleSelection="true"/>
+            </HorizontalScrollView>
+            <com.google.android.material.textfield.TextInputLayout style="@style/Field" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Title (e.g. Casio fx-991)">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textCapSentences"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout style="@style/Field" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:hint="Description">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="top" android:inputType="textMultiLine|textCapSentences" android:minLines="3"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout style="@style/Field" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:hint="Landmark (e.g. Library, 2nd floor)">
+                <com.google.android.material.textfield.TextInputEditText android:id="@+id/place" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textCapSentences"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:background="@drawable/bg_loc" android:gravity="center_vertical" android:orientation="horizontal" android:padding="12dp">
+                <TextView android:id="@+id/loc" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textColor="?attr/colorPrimary" android:textStyle="bold"/>
+                <Button android:id="@+id/refresh" style="@style/Widget.Material3.Button.TonalButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Refresh"/>
+            </LinearLayout>
+            <Button android:id="@+id/time" style="@style/Widget.Material3.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="12dp"/>
+            <Button android:id="@+id/post" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="12dp" android:text="Post item"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
